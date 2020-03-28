@@ -1,15 +1,10 @@
+# BACKEND
 *.pyc
 __pycache__/
 dvenv/
-migrations/
-backend/secret.py
-backend/devmanage.py
-backend/drf_vuejs/devsettings.py
-backend/drf_vuejs/devurls.py
-/.editorconfig
-/.eslintrc.json
 
 
+# FRONTEND
 .DS_Store
 node_modules
 frontend/dist

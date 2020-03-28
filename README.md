@@ -4,6 +4,7 @@ ________________________________________________________________
 ________________________________________________________________
 
 Terminal 1:  
+cd backend
 py devmanage.py runserver
 
 Terminal 2:  
@@ -35,8 +36,8 @@ py devmanage.py migrate
 -Установка vue-cli:  
 vue create frontend
 
--Сборка front
-cd frontend
+-Сборка front  
+cd frontend  
 npm run build
 
 ________________________________________________________________
