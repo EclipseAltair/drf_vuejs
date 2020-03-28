@@ -4,7 +4,7 @@ ________________________________________________________________
 ________________________________________________________________
 
 Terminal 1:  
-cd backend
+cd backend  
 py devmanage.py runserver
 
 Terminal 2:  
@@ -22,16 +22,23 @@ Settings -> Project Settings -> Project Structure -> Sources
 -Создание и запуск виртуального окружения:  
 cd backend  
 py -m venv dvenv  
-Settings -> Project Settings -> Project Interpreter -> dvenv  
+Settings -> Project Settings -> Project Interpreter -> dvenv
 
--Устнаовка плагинов:  
+-Устнаовка зависимостей:  
 pip install django djangorestframework django-cors-headers
 
--Миграции в БД:
+-Миграции в БД:  
 py devmanage.py makemigrations main  
 py devmanage.py migrate
 
--Скачать nodejs
+-Установка NVM:  
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash  
+source ~/.profile  
+nvm ls-remote  
+nvm install v12.12.0
+
+-Создание node_modules:  
+npm install
 
 -Установка vue-cli:  
 vue create frontend
