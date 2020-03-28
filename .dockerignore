@@ -1,0 +1,9 @@
+*.pyc
+__pycache__/
+.idea/
+backend/dvenv/
+migrations/
+frontend/node_modules/
+.editorconfig
+.eslintrc.json
+README.md

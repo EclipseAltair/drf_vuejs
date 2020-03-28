@@ -1,0 +1,33 @@
+*.pyc
+__pycache__/
+dvenv/
+migrations/
+backend/secret.py
+backend/devmanage.py
+backend/drf_vuejs/devsettings.py
+backend/drf_vuejs/devurls.py
+/.editorconfig
+/.eslintrc.json
+
+
+.DS_Store
+node_modules
+frontend/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
