@@ -64,3 +64,15 @@ pip freeze > requirements.txt
 
 -Установить пакеты из requirements.txt:  
 pip install -r requirements.txt
+
+-Сборка docker
+docker-compose build
+
+-Вывод образов
+docker images | head
+
+-Dump docker
+docker save drf_vuejs_app:latest > dump.docker
+
+-Отправка на сервер
+scp dump.docker root@255.255.255.255:/dump.docker
