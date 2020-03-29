@@ -31,6 +31,7 @@ pip install django djangorestframework django-cors-headers
 py devmanage.py makemigrations main  
 py devmanage.py migrate
 
+---Linux---
 -Установка NVM:  
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash  
 source ~/.profile  
@@ -39,6 +40,7 @@ nvm install v12.12.0
 
 -Создание node_modules:  
 npm install
+------
 
 -Установка vue-cli:  
 vue create frontend
